@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhick Johannes Gulapa | Portfolio</title>
+    <style>
+        /* Color Palette: 
+           Blue: #0056b3 
+           Black: #1a1a1a 
+           White: #ffffff 
+        */
+        
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif; /* Slightly more modern font */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #1a1a1a; /* Dark black text */
+        }
+
+        /* Navigation - Dark Theme */
+        nav {
+            background: #1a1a1a; /* Black background */
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky; /* Keeps menu at top while scrolling */
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #ffffff; /* White text */
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #3399ff; /* Blue on hover */
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+            padding-bottom: 20px;
+        }
+
+        /* Headings - Blue Theme */
+        h1 {
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            border-left: 5px solid #0056b3; /* Blue accent line */
+            padding-left: 15px;
+        }
+
+        h2 {
+            color: #0056b3; /* Blue headings */
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #333;
+        }
+
+        /* Project Cards */
+        .project {
+            border: 1px solid #e0e0e0;
+            border-left: 4px solid #0056b3; /* Blue highlight */
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+
+        /* Skills List */
+        ul {
+            list-style-type: square;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Email highlight */
+        .email-box {
+            background: #eef6ff; /* Very light blue */
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 5px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        
+        <!-- Home Page -->
+        <section id="home">
+            <h1>Rhick Johannes Gulapa</h1>
+            <p>Good day! I'm Rhick. I love music, movies, and coffee. I'm a leader of a local band here in Rizal, Nueva Ecija.</p>
+        </section>
+
+        <!-- About Page -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am currently studying Information Technology. I am passionate about using technology to solve problems and express creativity.</p>
+            
+            <h3>Education</h3>
+            <ul>
+                <li>PHINMA - Araullo University South Campus</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>Basic Java</li>
+                <li>Leadership & Team Management (Band Leader)</li>
+                <li>Time Management</li>
+            </ul>
+        </section>
+
+        <!-- Projects Page -->
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project">
+                <h3>To-Do List App</h3>
+                <p>A simple web application that helps users track their daily tasks and stay organized.</p>
+            </div>
+
+            <div class="project">
+                <h3>Personal Blog</h3>
+                <p>A text-based blog site where I share my knowledge and journey in playing instruments.</p>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me via email for collaborations or inquiries:</p>
+            <div class="email-box">rhickjohannesgulapa@gmail.com</div>
+        </section>
+
+    </div>
+
+    <footer style="text-align: center; padding: 20px; font-size: 0.8rem; color: #888;">
+        &copy; 2026 Rhick Johannes Gulapa
+    </footer>
+
+</body>
+</html>
